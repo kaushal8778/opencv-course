@@ -21,6 +21,8 @@ def changeRes(width,height):
     
 # Reading Videos
 capture = cv.VideoCapture('F:\KAUSHAL\Internship\OpenCV\opencv-course\Resources\Videos\dog.mp4')
+# capture = cv.VideoCapture(0)
+# changeRes(960, 720)
 
 while True:
     isTrue, frame = capture.read()
