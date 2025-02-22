@@ -3,7 +3,7 @@
 import cv2 as cv
 
 # Read in an image
-img = cv.imread('../Resources/Photos/park.jpg')
+img = cv.imread('F:\KAUSHAL\Internship\OpenCV\opencv-course\Resources\Photos\park.jpg')
 cv.imshow('Park', img)
 
 # Converting to grayscale
@@ -21,6 +21,7 @@ cv.imshow('Canny Edges', canny)
 # Dilating the image
 dilated = cv.dilate(canny, (7,7), iterations=3)
 cv.imshow('Dilated', dilated)
+cv.waitKey(0)
 
 # Eroding
 eroded = cv.erode(dilated, (7,7), iterations=3)
