@@ -7,7 +7,7 @@ import numpy as np
 people = ['Ben Afflek', 'Elton John', 'Jerry Seinfield', 'Madonna', 'Mindy Kaling']
 DIR = r'..Media Files\Faces\train'
 
-haar_cascade = cv.CascadeClassifier('haar_face.xml')
+haar_cascade = cv.CascadeClassifier('F:\KAUSHAL\Internship\OpenCV\opencv-course\Section #3 - Faces\haar_face.xml')
 
 features = []
 labels = []
